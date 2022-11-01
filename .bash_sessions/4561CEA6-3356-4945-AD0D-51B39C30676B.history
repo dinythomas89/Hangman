@@ -1,0 +1,160 @@
+brew install git
+git --version
+git --version
+git --version
+git --version
+git config --global user.name "dinythomas89"
+$ git config --global user.email "dinythomas89@gmail.com"
+$git config --global user.email "dinythomas89@gmail.com"
+$ git config --global user.email "dinythomas89@gmail.com"
+git config --global user.email "dinythomas89@gmail.com"
+git config --global core.editor "code -w"
+ssh-keygen -t ed25519 -C "dinythomas89@gmail.com"
+cat /Users/HYFDK/.ssh/id_ed25519.pub
+ssh -T git@github.com
+ls
+cd Desktop
+git init git@github.com:dinythomas89/hyf-homework.git
+cd Desktop
+git clone git@github.com:dinythomas89/hyf-homework.git
+git status
+git checkout -b react/week3
+git status
+cd react
+cd week3
+ls
+cd ..
+ls
+cd week3
+ls
+npx create-react-app todo-list
+node -v
+npm -v
+/Volumes/Deon/diny/computer/reactweek3-s\ or\ no ; exit;
+/Volumes/Deon/diny/computer/reactweek3-s\ or\ no ; exit;
+ls
+cd react
+cd week3
+ls
+npx create-react-app todo-list
+cd todo-list
+npm start
+import React, { useState } from 'react';
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
+import moment from 'moment'
+const AddTodo = ({ addTodo }) => {
+    const [userInput, setUserInput] = useState('');
+    const [startDate, setStartDate] = useState(new Date());
+    const newInput = (e) => {
+        setUserInput(e.target.value);
+    }
+    const addTask = (e) => {
+        addTodo(userInput);
+        setUserInput("");
+    }
+    console.log(startDate)
+    return (
+        <div>
+            <input value={userInput} type="text" onChange={newInput} placeholder="Enter new todo..." />
+            <DatePicker selected={startDate} onChange={(date) => setStartDate(date)} />
+            <button onClick={addTask}>Add Task</button>
+        </div>
+    );
+};
+npm install react-datepicker --save
+npm start
+ls
+npm start
+git status
+git add ./
+git status
+git commit -m "added react/week3 homework"
+git status
+git push origin react/week3
+cd todo-list
+npm start
+git status
+git checkout master
+git checkout -b react/week4
+git status
+ls
+cd react
+cd week4
+ls
+npx create-react-app github-user-search
+cd github-user-search
+npm start
+npm start
+npm start
+npm start
+git status
+cd src
+git status
+ls
+git add App.js Header.js FetchUsers.js SearchInput.js RenderUsers.js App.css
+git status
+git commit -m "Added react/week4 homework"
+git status
+git push origin react/week4
+npm start
+npm install
+npm start
+npm install
+git status
+git checkout master
+git status
+git checkout react/week3
+git status
+git status
+git status
+ls
+cd week3
+ls
+cd todo-list
+ls
+cd src
+ls
+git status
+git add App.js
+git commit -m "modified as per mentors suggestion"
+git status
+git push origin react/week3
+git status
+git checkout master
+git pull origin master
+git checkout react/week4
+git status
+ls
+cd my-app
+npm start
+npm install react-router-dom
+npm start
+ld
+npx create-react-app my-app
+cd my-app
+npm install
+node backend.js
+cd backend
+node backend.js
+node backend.js
+git status
+git status
+npm install
+cd src
+ls
+cd backend
+ls
+npm run server
+cd ..
+cd ..
+ls
+npm run server
+mysql --version
+mysql -u user
+mysql --version
+npm run dev
+npm install
+npm run dev
+npm run dev
+npm run dev
